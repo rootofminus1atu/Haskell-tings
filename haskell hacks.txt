@@ -11,3 +11,4 @@
 3. Haskell terminal thingy
 > stack ghci   (to run)
 > :q           (to quit)
+> :l name      (to load a .hs file and use its functions)
