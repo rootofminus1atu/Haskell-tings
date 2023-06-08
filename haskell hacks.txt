@@ -1,0 +1,13 @@
+1. Making a new haskell project
+> stack new project-name-goes-here
+> stack build
+> stack run
+
+
+2. Running a simple haskell file
+> stack runghc file-name-goes-here
+
+
+3. Haskell terminal thingy
+> stack ghci   (to run)
+> :q           (to quit)

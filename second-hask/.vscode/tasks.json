@@ -1,15 +1,15 @@
 {
     "version": "2.0.0",
     "tasks": [
-      {
-        "label": "Run Haskell Program",
-        "type": "shell",
-        "command": "stack",
-        "args": ["runghc", "${file}"],
-        "group": {
-          "kind": "build",
-          "isDefault": true
+        {
+            "label": "Run Haskell Program",
+            "type": "shell",
+            "command": "stack",
+            "args": ["runghc", "main"], // ${file} alternative
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
         }
-      }
     ]
-  }
+}
