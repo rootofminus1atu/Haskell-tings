@@ -9,6 +9,7 @@
 
 
 3. Haskell terminal thingy
-> stack ghci   (to run)
-> :q           (to quit)
-> :l name      (to load a .hs file and use its functions)
+> stack ghci     (to run)
+> :q             (to quit)
+> :l name        (to load a .hs file and use its functions)
+> :t something   (to get the type of something)
